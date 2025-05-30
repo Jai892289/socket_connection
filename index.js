@@ -15,7 +15,7 @@ const io = new Server(server, {
   transports: ['websocket', 'polling'],
 });
 
-
+// wr
 io.on('connection', (socket)=>{
     console.log("New client connected", socket.id);
 
